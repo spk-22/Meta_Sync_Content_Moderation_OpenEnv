@@ -105,7 +105,7 @@ Correct Action: review
 
 ```bash
 # Clone repository
-git clone <repo-url>
+git clone https://github.com/meta-pytorch/OpenEnv.git             
 cd OpenEnv
 
 # Install dependencies
