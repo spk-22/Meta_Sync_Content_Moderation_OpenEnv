@@ -5,6 +5,7 @@
 This project presents a real-world content moderation environment built using the OpenEnv framework. It is designed to simulate the decision-making process involved in moderating user-generated content on public platforms, where interpretations often depend on more than just the textual content.
 
 The environment provides an AI agent with structured observations consisting of the content, along with optional contextual and intent-based signals. Context captures the situational or conversational background (e.g., tone, scenario), while intent reflects the underlying purpose of the message (e.g., threat, sarcasm, praise). Based on these inputs, the agent must choose an appropriate moderation action: allow, remove, or escalate for review.
+
 ---
 
 ## Overview
