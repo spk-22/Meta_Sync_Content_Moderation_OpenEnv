@@ -22,7 +22,7 @@ The environment evaluates the agent’s decision against a ground-truth label an
 
 Each episode consists of a **single moderation decision**.
 
-This environment is **containerized** and fully compatible with **OpenEnv**, and is deployed in Huggign Face Spaces.
+This environment is **containerized** and fully compatible with **OpenEnv**, and is deployed in Hugging Face Spaces.
 
 ---
 
