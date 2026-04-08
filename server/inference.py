@@ -7,7 +7,7 @@ from content_moderation.client import ContentModerationEnv
 from content_moderation.models import ContentModerationAction
 
 # ENV CONFIG
-API_KEY = os.getenv("HF_TOKEN") or os.getenv("API_KEY") or "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"
+API_KEY = os.getenv("HF_TOKEN") or os.getenv("API_KEY")
 API_BASE_URL = os.getenv("API_BASE_URL") or "https://router.huggingface.co/v1"
 MODEL_NAME = os.getenv("MODEL_NAME") or "meta-llama/Meta-Llama-3-8b-Instruct"
 
